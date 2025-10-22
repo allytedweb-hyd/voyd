@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '89a77c0cae5c13298d91728869c4f7359ffd73b2',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '89a77c0cae5c13298d91728869c4f7359ffd73b2',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'phenx/php-svg-lib' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'reference' => 'eb045e518185298eb6ff8d80d0d0c6b17aecd9af',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phenx/php-svg-lib',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'sabberworm/php-css-parser' => array(
+            'pretty_version' => 'v8.9.0',
+            'version' => '8.9.0.0',
+            'reference' => 'd8e916507b88e389e26d4ab03c904a082aa66bb9',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../sabberworm/php-css-parser',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

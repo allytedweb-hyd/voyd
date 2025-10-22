@@ -1,0 +1,30 @@
+#invoice {
+    padding: 0;
+}
+.quote-address-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #000;
+}
+.quote-to-address-block {
+    text-align: start;
+    color: #000;
+}
+.quote-address-container p {
+    line-height: 13px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.quote-address-container span {
+    font-weight: bold;
+}
+.quote-office-add-block {
+    text-align: end;
+}
+.quote-office-add-block p {
+    line-height: 13px;
+    font-size: 14px;
+    font-weight: 500;
+}

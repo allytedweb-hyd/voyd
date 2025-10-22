@@ -1,0 +1,26 @@
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_error', 1);
+error_reporting(E_ALL);
+
+header('Access-Control-Allow-Origin: *');
+header("Access-Control-Allow-Credentials: true");
+header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE');
+header('Access-Control-Allow-Headers: Origin, Content-Type, Authorization');
+
+include "../../includes/db.php";
+
+$sub_type = $_GET['subType'];
+
+$getProducts = mysqli_query($conn, 'SELECT * FROM subtype_master WHERE product_type="' . $sub_type . '" && status=1');
+$all_products = [];
+
+while ($data = mysqli_fetch_assoc($getProducts)) {
+    $all_products[] = $data;
+}
+if ($getProducts) {
+    $result = ['status' => true, 'response' => $all_products];
+} else {
+    $result = ['status' => false, 'response' => "No Data Found"];
+}
+echo json_encode($result);

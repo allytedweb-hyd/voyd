@@ -1,0 +1,5 @@
+{
+    "require": {
+        "phenx/php-svg-lib": "^1.0"
+    }
+}
