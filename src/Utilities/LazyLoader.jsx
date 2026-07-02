@@ -61,6 +61,7 @@ const LazyLoader = () => {
   const ChangePassword = lazy(() => import("../Pages/ChangePassword"));
   const ProductDetail = lazy(() => import("../Pages/ProductDetail"));
   const CustomerProjects = lazy(() => import("../Pages/CustomerProjects"));
+  const VerifyDesigner = lazy(() => import("../Pages/VerifyDesigner"));
   const DesignChanges = lazy(() => import("../Components/Home/DesignChanges"));
   // const Pageone = lazy(() => import("../Pages/pageOne"));
 
@@ -127,6 +128,7 @@ const LazyLoader = () => {
           <Route path="/singleProject" element={<ProductDetail />} />
           <Route path="/referaldetails" element={<ReferalDetails />} />
           <Route path="/customerProjects" element={<CustomerProjects />} />
+          <Route path="/verifydesigner" element={<VerifyDesigner />} />
           <Route path="/mycart" element={<MyCart />} />
         </Routes>
       </Suspense>

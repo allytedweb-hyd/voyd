@@ -1,7 +1,10 @@
 <?php
+$conn = mysqli_connect('217.21.87.154', 'u237107965_mr_Interior', 'Interior@123$#', 'u237107965_mr_Interior');
 
 // mmworkspace
-$conn = mysqli_connect('217.21.87.154', 'u237107965_mr_Interior', 'Interior@123$#', 'u237107965_mr_Interior');
+// $conn = mysqli_connect('217.21.87.154', 'u237107965_mr_Interior', 'Interior@123$#', 'u237107965_mr_Interior');
+
+
 
 
 // local
