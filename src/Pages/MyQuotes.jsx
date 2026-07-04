@@ -727,16 +727,15 @@ const MyQuotes = () => {
                                       (i >=
                                         quoteCurrentPage - quoteVisiblePages &&
                                         i <=
-                                          quoteCurrentPage + quoteVisiblePages)
+                                        quoteCurrentPage + quoteVisiblePages)
                                     ) {
                                       quotePageButtons.push(
                                         <button
                                           key={i}
-                                          className={`page-btns ${
-                                            quoteCurrentPage === i
-                                              ? "grn-btn"
-                                              : ""
-                                          }`}
+                                          className={`page-btns ${quoteCurrentPage === i
+                                            ? "grn-btn"
+                                            : ""
+                                            }`}
                                           onClick={() =>
                                             handleQuotePageChange(i)
                                           }
@@ -747,16 +746,16 @@ const MyQuotes = () => {
                                     } else if (
                                       (i ===
                                         quoteCurrentPage -
-                                          quoteVisiblePages -
-                                          1 &&
+                                        quoteVisiblePages -
+                                        1 &&
                                         quoteCurrentPage - quoteVisiblePages >
-                                          2) ||
+                                        2) ||
                                       (i ===
                                         quoteCurrentPage +
-                                          quoteVisiblePages +
-                                          1 &&
+                                        quoteVisiblePages +
+                                        1 &&
                                         quoteCurrentPage + quoteVisiblePages <
-                                          quoteTotalPages - 1)
+                                        quoteTotalPages - 1)
                                     ) {
                                       quotePageButtons.push(
                                         <button
@@ -805,7 +804,7 @@ const MyQuotes = () => {
                             </tr>
                           </thead>
                           <tbody>
-                            {/* {myQuotations.length != 0 &&
+                            {/* {myQuotations.length != 0 && 
                               myQuotations.map((each, index) => ( */}
                             {currentItems && currentItems.length > 0 ? (
                               currentItems.map((each, index) => (
@@ -873,9 +872,8 @@ const MyQuotes = () => {
                                     pageButtons.push(
                                       <button
                                         key={i}
-                                        className={`page-btns ${
-                                          currentPage === i ? "grn-btn" : ""
-                                        }`}
+                                        className={`page-btns ${currentPage === i ? "grn-btn" : ""
+                                          }`}
                                         onClick={() => handlePageChange(i)}
                                       >
                                         {i}
@@ -886,7 +884,7 @@ const MyQuotes = () => {
                                       currentPage - visiblePages > 2) ||
                                     (i === currentPage + visiblePages + 1 &&
                                       currentPage + visiblePages <
-                                        totalPages - 1)
+                                      totalPages - 1)
                                   ) {
                                     pageButtons.push(
                                       <button

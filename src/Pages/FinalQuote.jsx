@@ -223,11 +223,11 @@ const FinalQuote = () => {
                   </p>
                   <div className="contacts">
                     <span className="email">Email</span>
-                    <span>info@voyd.com</span>
+                    <span>contact@voydinteriors.com</span>
                   </div>
                   <div className="contacts">
                     <span>Phone</span>
-                    <span>+91 9876543212</span>
+                    <span>+91 9115833833</span>
                   </div>
                 </div>
               </div>
@@ -381,9 +381,8 @@ const FinalQuote = () => {
                                     {/* Room column */}
                                     {isFirstRoomRow && (
                                       <td rowSpan={tabRowsCount}>
-                                        <strong>{`${areaName}-${
-                                          ele.tabIndex + 1
-                                        }`}</strong>
+                                        <strong>{`${areaName}-${ele.tabIndex + 1
+                                          }`}</strong>
                                       </td>
                                     )}
 
@@ -485,9 +484,9 @@ const FinalQuote = () => {
                 <div className="contactBlock">
                   <div className="details">
                     <h6>VOYD Interior Designing Solutions</h6>
-                    <p>www.voyd.com</p>
+                    <p>www.voydinteriors.com</p>
                     <p>
-                      info@voyd.com <span>/ +91 98765 43210</span>
+                      contact@voydinteriors.com <span>/ +91 9115833833</span>
                     </p>
                   </div>
                   <div className="logo">

@@ -66,10 +66,10 @@ const InteriorServices = () => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            Project Bootcamp accelerates planning and execution,
-                            guiding teams through intensive sessions to
-                            streamline workflows and achieve interior goals
-                            efficiently.
+                            Visit our Knowledge Center for insights on
+                            material selection, product quality,
+                            designer selection, sourcing, etc to
+                            complete your dream home
                           </p>
                         </div>
                       </div>
@@ -97,9 +97,7 @@ const InteriorServices = () => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            Home Automation integrates smart technology,
-                            enhancing comfort, security, and convenience while
-                            creating modern, efficient living experiences.
+                            Access your home from anywhere. Enhance security, sync your apps, and create a smart home that changes your experience according to every mood.
                           </p>
                         </div>
                       </div>
@@ -135,10 +133,7 @@ const InteriorServices = () => {
                             </div>
                             <div className="flip-card-back">
                               <p>
-                                VOYD Interiors offers Budget Planning with a
-                                personalized budget setup, ensuring smart
-                                allocation, cost control, and tailored designs
-                                within your limits.
+                                Budget Planning Software helps you control overspending, source materials cost-effectively, allocate budgets room-wise and complete dream home within budget.
                               </p>
                             </div>
                           </div>
@@ -167,10 +162,7 @@ const InteriorServices = () => {
                             </div>
                             <div className="flip-card-back">
                               <p>
-                                VOYD Interiors offers Designer Selection,
-                                guiding you to choose the right professionals
-                                who align with your vision, taste, and project
-                                needs.
+                                Major project failures happen due to wrong designer selection. Connect with our verified, skill-evaluated design partners for detailed discussions before you decide.
                               </p>
                             </div>
                           </div>
@@ -209,10 +201,7 @@ const InteriorServices = () => {
                             </div>
                             <div className="flip-card-back">
                               <p>
-                                Online Décor Marketplace offers curated
-                                furnishings, stylish accents, and unique décor
-                                pieces, making it easy to shop and elevate
-                                interiors effortlessly.
+                                Purchase trendy and durable decor items at affordable prices, sourced directly from manufacturers and skilled craftsmen.
                               </p>
                             </div>
                           </div>
@@ -242,10 +231,7 @@ const InteriorServices = () => {
                             </div>
                             <div className="flip-card-back">
                               <p>
-                                Project Monitoring tracks progress closely,
-                                manages timelines, ensures quality, and keeps
-                                every stage aligned for smooth and successful
-                                completion.
+                                Track your project’s progress to spot issues early, prevent design and color errors, and stay fully transparent at every stage.
                               </p>
                             </div>
                           </div>
@@ -277,9 +263,7 @@ const InteriorServices = () => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            Design Finalization brings every detail together,
-                            ensuring concepts are refined, personalized, and
-                            perfectly aligned with your lifestyle and vision.
+                            Finalize your designs by going beyond 2D & 3D mockups. Experience proposed designs virtually, get detail view of every aspect to confidently finalize your designs
                           </p>
                         </div>
                       </div>
@@ -302,10 +286,7 @@ const InteriorServices = () => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            Property Inspection ensures thorough evaluation of
-                            spaces, identifying details, measuring accurately,
-                            and preparing foundation for flawless
-                            transformation.
+                            Strong walls, quality wiring, and proper internal piping are the foundation of durable interiors. Inspect your property and fix issues before they damage your interiors
                           </p>
                         </div>
                       </div>

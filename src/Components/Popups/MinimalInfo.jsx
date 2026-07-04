@@ -34,6 +34,9 @@ const MinimalInfo = (props) => {
   const [selectedOptions, setSelectedOptions] = useState([]);
   const theme = useTheme();
   const [classification, setClassification] = useState(false);
+  const [classifications, setClassifications] = useState([]);
+  const [property, setProperty] = useState([]);
+  const [propertyType, setPropertyType] = useState([]);
   const closeClassification = () => {
     setClassification(false);
   };
@@ -84,7 +87,7 @@ const MinimalInfo = (props) => {
     },
   };
 
-  const [property, setProperty] = useState([]);
+
   const getProperty = async () => {
     const apiUrl = `${environmentUrl}/questionnaire/getProperty.php`;
     const options = {
@@ -92,11 +95,12 @@ const MinimalInfo = (props) => {
     };
     const response = await fetch(apiUrl, options);
     const fetchedData = await response.json();
+    console.log("fetchedData:", fetchedData);         // 👈 log the parsed JSON
+    console.log("fetchedData.response:", fetchedData?.response); // 👈 log the array
     const proRes = fetchedData?.response;
-    setProperty(proRes);
+    setProperty(Array.isArray(proRes) ? proRes : []);
   };
 
-  const [propertyType, setPropertyType] = useState([]);
   const getPropertyType = async () => {
     const apiUrl = `${environmentUrl}/questionnaire/getPropertyType.php`;
     const options = {
@@ -104,11 +108,12 @@ const MinimalInfo = (props) => {
     };
     const response = await fetch(apiUrl, options);
     const fetchedData = await response.json();
+    console.log("propertyType fetchedData:", fetchedData);
+    console.log("propertyType fetchedData.response:", fetchedData?.response);
     const proType = fetchedData?.response;
-    setPropertyType(proType);
+    setPropertyType(Array.isArray(proType) ? proType : []);
   };
 
-  const [classifications, setClassifications] = useState([]);
   const getClassificationMaster = async () => {
     const apiUrl = `${environmentUrl}/classifications/get.php`;
     const options = {

@@ -17,14 +17,16 @@ const OurTeam = () => {
   const [team, setTeam] = useState([]);
 
   const getOurTeam = async () => {
-    const apiurl = `${environmentUrl}/ourTeam/get.php`;
-    const options = {
-      method: "GET",
-    };
-    const response = await fetch(apiurl, options);
-    const fetchedData = await response.json();
-    const ourTeam = fetchedData?.response;
-    setTeam(ourTeam);
+    try {
+      const apiurl = `${environmentUrl}/ourTeam/get.php`;
+      const response = await fetch(apiurl, { method: "GET" });
+      const fetchedData = await response.json();
+      const ourTeam = fetchedData?.response;
+      setTeam(Array.isArray(ourTeam) ? ourTeam : []);
+    } catch (err) {
+      console.error("Failed to fetch team:", err);
+      setTeam([]);
+    }
   };
 
   useEffect(() => {

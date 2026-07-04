@@ -258,9 +258,7 @@ const Footer = () => {
                         </Link>
                       </div>
                       <p className="wht-dp pt-4">
-                        A smart workspace is a digital environment that brings
-                        together all the content of workgroup members with their
-                        favorite tools.
+                        VOYD redefines interior projects by ensuring on time guaranteed execution, delivering dream interiors at affordable costs with top-quality results.
                       </p>
                     </div>
                   </div>
@@ -369,7 +367,7 @@ const Footer = () => {
                                   <MdMailOutline />
                                 </span>
                               </div>{" "}
-                              <div>contact@company.com</div>
+                              <div>hr@voydinteriors.com</div>
                             </div>
                             <div className="wht-dp d-flex underNon">
                               <div>
