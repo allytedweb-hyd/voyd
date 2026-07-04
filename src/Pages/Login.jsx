@@ -14,6 +14,7 @@ import Sonner from "../Components/Toaster/Sonner";
 import { jwtDecode } from "jwt-decode";
 import { GoogleLogin } from "@react-oauth/google";
 import ForgotModal from "../Components/Popups/ForgotModal";
+import SEO from "../Components/SEO";
 
 export const UserContext = React.createContext();
 
@@ -173,6 +174,11 @@ const Login = () => {
   }, []);
   return (
     <>
+      <SEO
+        title="Login to VOYD | Access Your Interior Journey"
+        description="Track projects, manage approvals, access services, and stay connected with your interior journey."   
+        keywords="customer login, user login, project dashboard, account login"
+   />
       {loading && <Loader />}
       <section className="userLoginSection">
         <div className="container-fluid">

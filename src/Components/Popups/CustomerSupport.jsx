@@ -11,6 +11,7 @@ import Loader from "../Spinner/Loader";
 import { regexPatterns } from "../../libs/constant";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
+import SEO from "../SEO";
 
 const CustomerSupport = ({ openCustomerSupport, closeCustomerSupport }) => {
   const [formData, setFormData] = useState({});
@@ -115,6 +116,12 @@ const CustomerSupport = ({ openCustomerSupport, closeCustomerSupport }) => {
 
   return (
     <>
+      <SEO
+        title="Customer Support | We're With You Every Step"
+        description="Get dedicated assistance for project updates, inspections, quality checks, approvals, and interior execution support."
+        keywords="customer support, customer assistance, project support, 
+help center"
+      />
       {loading && <Loader />}
       <Modal
         show={openCustomerSupport}

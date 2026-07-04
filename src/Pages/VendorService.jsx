@@ -1,7 +1,7 @@
 import { useState } from "react";
 // import OngoingPopup from "../Components/Popups/OngoingPopup";
 import BookConsultation from "../Components/Popups/BookConsultation";
-
+import SEO from "../Components/SEO";
 const VendorService = () => {
   // const [onLoadPopup, setOnLoadPopup] = useState(false);
   // const onCloseLoadPopup = () => {
@@ -13,6 +13,14 @@ const VendorService = () => {
   };
   return (
     <>
+      <SEO
+        title="Grow Your Interior Business with VOYD"
+        description="A complete support ecosystem for interior vendors—from client acquisition to project execution."
+        keywords="vendors for interior designers, interior vendor services, interior business growth, interior project leads, qualified interior leads, interior vendor platform
+interior contractor leads, vendor support services, interior business solutions
+interior partner network, interior project opportunities"
+      />
+
       <div className="v-sec-bg">
         <section>
           <div className="">

@@ -3,6 +3,8 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import OngoingPopup from "../Components/Popups/OngoingPopup";
 import CustomerSupport from "../Components/Popups/CustomerSupport";
 import { useNavigate } from "react-router-dom";
+import SEO from "../Components/SEO";
+
 const CustomerService = () => {
   const navigate = useNavigate();
   const [onLoadPopup, setOnLoadPopup] = useState(false);
@@ -33,7 +35,13 @@ const CustomerService = () => {
   };
 
   return (
+    
     <div>
+      <SEO
+        title="Interior Project Management Services | VOYD"
+        description="From vision to handover, experience intelligent planning, seamless execution, and uncompromising quality."
+        keywords="Interior services near me, Interior services list, interior service provider,  interior service provider near me, interior design services list"
+      />
       <section className="cx-bg pos-rel">
         <div>
           <img

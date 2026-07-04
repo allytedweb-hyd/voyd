@@ -12,6 +12,7 @@ import Testimonials from "../Components/Home/Testimonials";
 import DreamInterior from "../Components/Home/DreamInterior";
 import Handover from "../Components/Home/Handover";
 import InteriorServices from "../Components/Home/InteriorServices";
+import SEO from "../Components/SEO";
 
 const Home = () => {
   const [onLoadPopup, setOnLoadPopup] = useState(false);
@@ -29,8 +30,13 @@ const Home = () => {
     }, 5000);
   }, []);
 
-  return (
+ return (
     <>
+      <SEO
+        title="VOYD | Interiors, Smart Homes & Seamless Execution"
+        description="From vision to handover, experience a smarter way to build beautiful spaces with design, technology, and quality under one roof."
+        keywords="Interior design, Interior design ai, interior ai, interior design near me, interior design portfolio, interior doors, smart home automation, smart home automation system, smart home appliances, smart home automation system project, inteior design for home"
+      />
       <>
         {/* <Loader /> */}
         <DreamInterior />

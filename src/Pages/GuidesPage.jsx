@@ -4,6 +4,7 @@ import { envImgUrl } from "../env/envImage";
 // import { TiArrowRight } from "react-icons/ti";
 import { FaArrowRight } from "react-icons/fa6";
 import GuidesPdfPopup from "../Components/Popups/GuidesPdfPopup";
+import SEO from "../Components/SEO";
 
 const GuidesPage = () => {
   const [pdfPopup, setPdfPopup] = useState(false);
@@ -57,7 +58,14 @@ const GuidesPage = () => {
     getGuides();
   }, []);
   return (
+
     <div>
+      <SEO
+        title="Ideas, Inspiration & Interior Expertise | VOYD"
+        description="Explore thoughtfully designed rooms, interior trends, planning guides, and practical design knowledge."
+        keywords="interior design ideas, room interior ideas, home interior inspiration, interior planning guide, interior design guide, home design ideas, modern interior design, room makeover ideas
+interior design inspiration, home interiors"
+      />
       <section className="bannertwo bannerGuid banner-style banner-mob">
         <div className="container guide-con">
           <div className="row">
@@ -148,9 +156,8 @@ const GuidesPage = () => {
                         pageButtons.push(
                           <button
                             key={i}
-                            className={`page-btns ${
-                              currentPage === i ? "grn-btn" : ""
-                            }`}
+                            className={`page-btns ${currentPage === i ? "grn-btn" : ""
+                              }`}
                             onClick={() => handlePageChange(i)}
                           >
                             {i}

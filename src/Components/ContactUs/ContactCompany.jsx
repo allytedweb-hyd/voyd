@@ -6,6 +6,7 @@ import Loader from "../Spinner/Loader";
 import { regexPatterns } from "../../libs/constant";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
+import SEO from "../SEO";
 
 const ContactCompany = () => {
   const [loading, setLoading] = useState(false);
@@ -89,7 +90,13 @@ const ContactCompany = () => {
   };
 
   return (
+    
     <>
+      <SEO
+        title="Start Your Interior Journey with VOYD"
+        description="Speak with our experts and discover a smarter approach to interiors, automation, quality assurance, and execution."
+        keywords="contact interior experts, interior consultation, interior design consultation, interior project consultation, talk to interior experts, book interior consultation, interior project assistance,design consultation services"
+      />
       {loading && <Loader />}
       <div>
         <section className="bg-contact breadCrumb">
