@@ -24,7 +24,7 @@ const OurTeam = () => {
     const response = await fetch(apiurl, options);
     const fetchedData = await response.json();
     const ourTeam = fetchedData?.response;
-    setTeam(ourTeam);
+    setTeam(Array.isArray(ourTeam) ? ourTeam : []); // CHANGED: guard against non-array responses
   };
 
   useEffect(() => {
@@ -32,11 +32,7 @@ const OurTeam = () => {
   }, []);
   return (
     <div>
-      {/* <section className="team-bg-col pb-dn pdng-section-top"> */}
       <section className="aboutTeamSection">
-        {/* <div className="positionPoll">
-          <img src="assets/images/ourTeamPoll.png" alt="" />
-        </div> */}
         <div className="container">
           <div className="row">
             <div className="teamTitleHeading">
@@ -44,7 +40,7 @@ const OurTeam = () => {
             </div>
           </div>
           <div className="row">
-            {team.length > 0 ? (
+            {Array.isArray(team) && team.length > 0 ? ( // CHANGED: added Array.isArray check
               team.map((each, index) => (
                 <div className=" teamCardOuter" key={index}>
                   <div className="teamDetailsBlock">
@@ -68,7 +64,6 @@ const OurTeam = () => {
                 </div>
               ))
             ) : (
-              // <p>No Data Found</p>
               <div className="container">
                 <div className="row">
                   <div className="result-container conditionImg">
@@ -79,7 +74,6 @@ const OurTeam = () => {
             )}
           </div>
         </div>
-        {/* <button onClick={() => setBookPopup(true)}>book consultation</button> */}
       </section>
     </div>
   );
