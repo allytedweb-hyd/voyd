@@ -147,11 +147,11 @@ const OurServices = () => {
           <div className="row pdng-btm tb-services">
             <div className="col-md-8">
               <div>
-                <h1 className="bridge-txt text-light t-center">BRIDGE TO</h1>
+                <h2 className="bridge-txt text-light t-center">BRIDGE TO</h2>
               </div>
               <div className="d-flex t-center j-center">
                 <div>
-                  <h1 className="elegence-txt text-light">Elegance</h1>
+                  <h2 className="elegence-txt text-light">Elegance</h2>
                 </div>
                 <div className="tme-txting">
                   <div className="time-txt">

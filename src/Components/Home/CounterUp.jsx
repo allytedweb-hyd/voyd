@@ -42,7 +42,7 @@ export const CounterUp = () => {
               <div className=" col-lg-6 col-md-6 col-sm-6 m-0 p-0 d-flex justify-content-end mobileStart">
                 <div className="d-flex">
                   <div>
-                    <h1 className="stop-txt stp-resp">What’s Holding </h1>
+                    <div className="stop-txt stp-resp">What's Holding </div>
                   </div>
                   {/* 
                   <div className="mobileForYou">

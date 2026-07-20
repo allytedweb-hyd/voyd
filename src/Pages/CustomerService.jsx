@@ -35,7 +35,7 @@ const CustomerService = () => {
   };
 
   return (
-    
+
     <div>
       <SEO
         title="Interior Project Management Services | VOYD"
@@ -56,7 +56,7 @@ const CustomerService = () => {
               <div className="cx-hdng m-trans">Transform Your Home with </div>
             </div>
             <div className="col-md-6 col-sm-6 d-block add-cx1 mob-wd">
-              <div className="smt-txt m-smart">
+              <h1 className="smt-txt m-smart">
                 <span className="cx-span">
                   Smart{" "}
                   <img
@@ -66,7 +66,7 @@ const CustomerService = () => {
                   />
                 </span>{" "}
                 Interior
-              </div>
+              </h1>
               <div className="d-flex sol-up">
                 <div>
                   <span className="smt-txt m-smart">Solutions</span>

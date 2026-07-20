@@ -108,10 +108,10 @@ const PopularProducts = () => {
           <div className="row d-block positionIndex">
             <div className="d-flex justify-content-center">
               <div>
-                <h1 className="creation-txtd text-light">Best Selling</h1>{" "}
+                <h2 className="creation-txtd text-light">Best Selling</h2>{" "}
               </div>
               <div className="pro-cen">
-                <h1 className="handover-txtd text-light">Products</h1>
+                <h2 className="handover-txtd text-light">Products</h2>
               </div>
             </div>
             <div className="text-center pb-4 pb-res">

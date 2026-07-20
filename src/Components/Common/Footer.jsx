@@ -13,6 +13,8 @@ import { GrLocation } from "react-icons/gr";
 import { MdMailOutline } from "react-icons/md";
 import { IoCallOutline } from "react-icons/io5";
 import { FaFacebookF, FaYoutube } from "react-icons/fa";
+import { FaLinkedinIn, FaPinterestP } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { useState } from "react";
 import { environmentUrl } from "../../env/enviroment";
 import { toast } from "sonner";
@@ -388,7 +390,7 @@ const Footer = () => {
                               <div className="icon-container1 d-flex">
                                 <div className="icon-wrapper">
                                   <a
-                                    href="https://www.facebook.com"
+                                    href="https://www.facebook.com/voydinteriors"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                   >
@@ -397,7 +399,7 @@ const Footer = () => {
                                 </div>
                                 <div className="icon-wrapper">
                                   <a
-                                    href="https://www.instagram.com"
+                                    href="https://www.instagram.com/voydinteriors/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                   >
@@ -406,11 +408,38 @@ const Footer = () => {
                                 </div>
                                 <div className="icon-wrapper">
                                   <a
-                                    href="https://www.youtube.com"
+                                    href="https://www.linkedin.com/company/voyd-interior/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    <FaLinkedinIn className="icon f-10" />
+                                  </a>
+                                </div>
+                                <div className="icon-wrapper">
+                                  <a
+                                    href="https://www.youtube.com/@VoydInteriors"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                   >
                                     <FaYoutube className="icon f-10" />
+                                  </a>
+                                </div>
+                                <div className="icon-wrapper">
+                                  <a
+                                    href="https://in.pinterest.com/VOYDinteriors/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    <FaPinterestP className="icon f-10" />
+                                  </a>
+                                </div>
+                                <div className="icon-wrapper">
+                                  <a
+                                    href="https://x.com/VOYDInteriors"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    <FaXTwitter className="icon f-10" />
                                   </a>
                                 </div>
                               </div>

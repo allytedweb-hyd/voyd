@@ -15,9 +15,9 @@ const AboutBanner = () => {
             <div className="col-md-5 col-sm-6 text-light text-start mob-bnr">
               <div className="about-div about-dktp abt-dsk">
                 <div className="abt-bnr-txt">Find Your Interiors </div>
-                <p className="abt-bnr-hdng bnr-phnn">
+                <h1 className="abt-bnr-hdng bnr-phnn">
                   Who We Are: Transforming Spaces, Inspiring Lives
-                </p>
+                </h1>
                 <button
                   className="abt-con-btn text-light"
                   onClick={() => setOnLoadPopup(true)}

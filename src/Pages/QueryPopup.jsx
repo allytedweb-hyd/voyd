@@ -29,7 +29,7 @@ const QueryPopup = () => {
             <div className="col-md-6 py-2">
               <div>
                 <h1 className="dream-txt ">
-                  Get Your <span className="dre-col">Dream</span> Touch
+                  Get Free <span className="dre-col">Quote</span> Today
                 </h1>
                 <div>
                   <img

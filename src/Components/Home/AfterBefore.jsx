@@ -58,9 +58,9 @@ const AfterBefore = () => {
           <div className="row">
             <div className="d-flex justify-content-center  w-100">
               <div>
-                <h1 className="creation-txtd fnt-see  mt-6">
+                <h2 className="creation-txtd fnt-see  mt-6">
                   See What We Can Do
-                </h1>{" "}
+                </h2>{" "}
               </div>
             </div>
             <div className="complir_sec w-100 layer">

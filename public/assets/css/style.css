@@ -956,7 +956,7 @@ hr {
         font-size: 22px;
         text-align: center;
         margin-top: 0px;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
     }
     .no-data {
         font-family: "Cinzel", serif;
@@ -7537,7 +7537,7 @@ cx service page styles */
         font-size: 35px;
         text-align: center;
         margin-top: 4px;
-        margin-bottom: 4px;
+        /* margin-bottom: 4px; */
     }
     .input-containering {
         margin-bottom: 10px;
@@ -9684,4 +9684,8 @@ section[aria-label="Notifications alt+T"] {
 .filterButtons2.active {
     background-color: #000;
     color: white;
+}
+
+h1.smt-txt {
+    margin-top: 60px !important;
 }

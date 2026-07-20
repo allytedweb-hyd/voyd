@@ -98,14 +98,14 @@ const DesignStories = (props) => {
             </div>
             <div className="d-flex justify-content-center wrap">
               <div>
-                <h1 className="creation-txtd latest">
+                <h2 className="creation-txtd latest">
                   <span>T</span>HE LATEST
-                </h1>
+                </h2>
               </div>
               <div>
-                <h1 className="handover-txtd article">
+                <h2 className="handover-txtd article">
                   <span>A</span>rticle
-                </h1>
+                </h2>
               </div>
             </div>
           </div>

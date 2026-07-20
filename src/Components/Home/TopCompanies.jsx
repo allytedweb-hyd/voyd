@@ -68,10 +68,10 @@ const TopCompanies = () => {
       <div className="container pb-5 res-pb">
         <div className="d-flex justify-content-center mt-5 res-mrgn">
           <div>
-            <h1 className="creation-txtd populer">POPULAR</h1>{" "}
+            <h2 className="creation-txtd populer">POPULAR</h2>{" "}
           </div>
           <div>
-            <h1 className="handover-txtd">Companies</h1>
+            <h2 className="handover-txtd">Companies</h2>
           </div>
         </div>
         <div className="row brdr-grey py-3">

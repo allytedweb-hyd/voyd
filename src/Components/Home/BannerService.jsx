@@ -46,10 +46,10 @@ const BannerService = () => {
               <div className="row">
                 <div className="col-md-6 col-sm-6 pl-tab text-left justify-content-center d-flex align-items-center pl-79 ">
                   <div className="contentPadLeft">
-                    <h1 className="trnsfm-txt">
+                    <h2 className="trnsfm-txt">
                       A Trusted Link Between <br /> Clients, Creators &
                       Suppliers
-                    </h1>
+                    </h2>
                     {/* <p className="col-greyish puy-4 trans-p">
                       Need expert help to bring your dream interiors to life?
                       From <br />

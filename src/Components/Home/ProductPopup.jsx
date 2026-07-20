@@ -183,7 +183,7 @@ const ProductPopup = () => {
               <div className=" widthFit col-md-8 col-sm-8">
                 <div className="d-flex">
                   <div>
-                    <h1 className="creation-txtd title">SPACES WE&apos;VE</h1>
+                    <h2 className="creation-txtd title">SPACES WE&apos;VE</h2>
                     <span className="allCircle"></span>
                   </div>
                   <div className="sofa-lampdiv">
@@ -193,10 +193,10 @@ const ProductPopup = () => {
                 <div className="d-flex">
                   <div>
                     <span className="allCircle"></span>
-                    <h1 className="creation-txtd title">BROUGHT TO</h1>
+                    <h2 className="creation-txtd title">BROUGHT TO</h2>
                   </div>
                   <div>
-                    <h1 className="handover-txtd life">Life</h1>
+                    <h2 className="handover-txtd life">Life</h2>
                   </div>
                 </div>
               </div>

@@ -103,9 +103,9 @@ const Testimonials = () => {
       <>
         <section className="userJourneySection">
           <div className=" bg-nature  justify-content-center">
-            <h1 className="creation-txtd text-center text-light py-3">
+            <h2 className="creation-txtd text-center text-light py-3">
               user journey
-            </h1>
+            </h2>
 
             <div className="imp-dv">
               <Tabs>

@@ -27,10 +27,9 @@ interior partner network, interior project opportunities"
             <div className="row ">
               <div className="col-md-8 col-sm-8 d-flex align-items-center">
                 <div className="v-all-div">
-                  <div className="v-serv-txt">
-                    How We Drive Interior Designers&#39;{" "}
-                    <span className="gro-txt">Growth</span>
-                  </div>
+                  <h1 className="v-serv-txt">
+                    How We Drive Interior Designers&#39; <span className="gro-txt">Growth</span>
+                  </h1>
                   <p className="v-serv-p">
                     We help bring your dream spaces to life with a variety of
                     creative and functional interior designs. Let’s create

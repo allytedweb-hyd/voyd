@@ -193,9 +193,12 @@ const OngoingPopup = ({ openOnLoadPopup, onCloseLoadPopup }) => {
           </div>
           <div className="col-md-6 py-2 d-flex justify-content-end onload-content ">
             <div>
-              <h1 className="dream-txt ">
-                Get Your <span className="dre-col">Dream</span> Touch
-              </h1>
+              <div className="heading-content">
+                <h1 className="dream-txt">
+                  Get Free <span className="dre-col">Quote</span> Today
+                </h1>
+                <p className="dream-p">Hassle free delivery</p>
+              </div>
               <div className="mob-none">
                 <img
                   src="assets/images/Group 1618873717.png"
@@ -212,9 +215,8 @@ const OngoingPopup = ({ openOnLoadPopup, onCloseLoadPopup }) => {
                 <div className="row but-adj">
                   <div className="col-md-6 col-sm-5 p-0 ln-23 wid-k">
                     <div
-                      className={` input-containering ${
-                        FormErrors.customerName ? "input-error mb-0" : ""
-                      }`}
+                      className={` input-containering ${FormErrors.customerName ? "input-error mb-0" : ""
+                        }`}
                     >
                       <svg
                         width="10"
@@ -243,11 +245,10 @@ const OngoingPopup = ({ openOnLoadPopup, onCloseLoadPopup }) => {
                     )}
 
                     <div
-                      className={` input-containering salesCountryCode ${
-                        FormErrors.mobile
+                      className={` input-containering salesCountryCode ${FormErrors.mobile
                           ? "input-error mb-0 salesCountryCode"
                           : ""
-                      }`}
+                        }`}
                     >
                       <PhoneInput
                         international
@@ -271,9 +272,8 @@ const OngoingPopup = ({ openOnLoadPopup, onCloseLoadPopup }) => {
                     )}
 
                     <div
-                      className={` input-containering ${
-                        FormErrors.email ? "input-error mb-0" : ""
-                      }`}
+                      className={` input-containering ${FormErrors.email ? "input-error mb-0" : ""
+                        }`}
                     >
                       <svg
                         width="10"
@@ -303,9 +303,8 @@ const OngoingPopup = ({ openOnLoadPopup, onCloseLoadPopup }) => {
                     )}
 
                     <div
-                      className={` input-containering ${
-                        FormErrors.city ? "input-error mb-0" : ""
-                      }`}
+                      className={` input-containering ${FormErrors.city ? "input-error mb-0" : ""
+                        }`}
                     >
                       <svg
                         width="10"
@@ -413,9 +412,8 @@ const OngoingPopup = ({ openOnLoadPopup, onCloseLoadPopup }) => {
                     </div>
 
                     <div
-                      className={` input-containering ${
-                        FormErrors.area ? "input-error mb-0" : ""
-                      }`}
+                      className={` input-containering ${FormErrors.area ? "input-error mb-0" : ""
+                        }`}
                     >
                       <svg
                         width="10"
@@ -448,9 +446,8 @@ const OngoingPopup = ({ openOnLoadPopup, onCloseLoadPopup }) => {
                     )}
 
                     <div
-                      className={` input-containering com-div ${
-                        FormErrors.projectType ? "input-error mb-0" : ""
-                      }`}
+                      className={` input-containering com-div ${FormErrors.projectType ? "input-error mb-0" : ""
+                        }`}
                     >
                       <svg
                         width="10"
@@ -507,9 +504,8 @@ const OngoingPopup = ({ openOnLoadPopup, onCloseLoadPopup }) => {
                       </svg>
                       <select
                         // className="sel-inp s-ong comm-fild"
-                        className={`sel-inp s-ong comm-fild ${
-                          projectType === "" ? "txt-gray" : "txt-black"
-                        }`}
+                        className={`sel-inp s-ong comm-fild ${projectType === "" ? "txt-gray" : "txt-black"
+                          }`}
                         name="projectType"
                         id="projectType"
                         onChange={handleUserInput}
@@ -542,9 +538,8 @@ const OngoingPopup = ({ openOnLoadPopup, onCloseLoadPopup }) => {
                       <p className="error-msg">{FormErrors?.projectType}</p>
                     )}
                     <div
-                      className={` input-project w-more mg-mob d-flex pr-0 tb ${
-                        FormErrors.query ? "input-error mb-0" : ""
-                      }`}
+                      className={` input-project w-more mg-mob d-flex pr-0 tb ${FormErrors.query ? "input-error mb-0" : ""
+                        }`}
                     >
                       <textarea
                         placeholder="Project Details *"
