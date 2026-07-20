@@ -318,12 +318,12 @@ const SignUp = () => {
 
   return (
     <>
-    <SEO
+      {/* <seo
             title="Join VOYD | Start Your Interior Journey Today"
             description="Create your account to explore interiors, shop smarter, access expert guidance, and manage projects."   
             keywords="create account, sign up online, register account, join platform, customer registration, user registration, create profile,
 account creation"
-       />
+       /> */}
       {loading && <Loader />}
       <section className="registrationSection tabPd">
         <div className="container-fluid">

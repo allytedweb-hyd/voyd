@@ -208,14 +208,14 @@ const Header = () => {
                         </Link>
                       </li>
 
-                      <li>
+                      {/* <li>
                         <Link to="/verifydesigner" onClick={TogglecloseMenu}>
                           <div className="d-flex qualCheck">
                             <div>Verify</div>
                             <div>Designer</div>
                           </div>
                         </Link>
-                      </li>
+                      </li> */}
 
                       <li>
                         <Link to="/guidespage" onClick={TogglecloseMenu}>
@@ -327,13 +327,13 @@ const Header = () => {
                                 Customer Support
                               </button> */}
 
-                             <button
-  onClick={() => setCustomerSupport(true)}
-  className="customerSupport supportBtn"
-  type="button"F
->
-  <RiCustomerService2Line />
-</button>
+                              <button
+                                onClick={() => setCustomerSupport(true)}
+                                className="customerSupport supportBtn"
+                                type="button"
+                              >
+                                <RiCustomerService2Line />
+                              </button>
                             </li>
                           ) : (
                             <>
