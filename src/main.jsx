@@ -9,7 +9,7 @@ import { HelmetProvider } from "react-helmet-async";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <HelmetProvider>
-    <GoogleOAuthProvider clientId="1096450435221-6nnm98ock6l1vqmdk0j3behbi2edg15f.apps.googleusercontent.com">
+    <GoogleOAuthProvider clientId="333173030576-uef3cbcom6plsul3hfikn8628dr7jlgb.apps.googleusercontent.com">
       <>
         <BrowserRouter>
           {/* <BrowserRouter basename="/mr.Interior/website/"> */}
